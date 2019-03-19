@@ -5881,9 +5881,9 @@ rc-animate@2.x:
     react-lifecycles-compat "^3.0.4"
 
 rc-calendar@^9.10.10:
-  version "9.10.10"
-  resolved "https://registry.yarnpkg.com/rc-calendar/-/rc-calendar-9.10.10.tgz#82ba059e98cdd1957e1740ec3eaac407a60e108f"
-  integrity sha512-WFnxpXGzIt2cPCJjFmrju/w2jZHAO9jW3JSDZovaJuBtVciu1p8brL6PSjWCo4flD3jVurL9LO8tJwgajELj2w==
+  version "9.11.0"
+  resolved "https://registry.yarnpkg.com/rc-calendar/-/rc-calendar-9.11.0.tgz#0972244c26bc213e9302423832baf0b16396fcf9"
+  integrity sha512-yyNktcod0fEOhGL7feQmIwcZqK6oOqbczQhLc9QWFxy9QRQfWcREBNtJOmJvF06y9RU4N5UyW+YyiewiVpF7uQ==
   dependencies:
     babel-runtime "6.x"
     classnames "2.x"

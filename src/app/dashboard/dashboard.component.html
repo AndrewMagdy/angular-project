@@ -11,14 +11,22 @@
   </a>
 </div>
 
-<input [(ngModel)]="mode" placeholder="name" />
-<input type="checkbox" [(ngModel)]="showToday" />
+<label> Select Mode </label>
+<select [(ngModel)]="mode">
+  <option value="year">Year</option>
+  <option value="decade">Decade</option>
+</select>
+<label
+  >Show Today Button <input type="checkbox" [(ngModel)]="showToday"
+/></label>
 
-<h1>{{ showToday }}</h1>
+<h1>React Component Start</h1>
+
 <calendar-react
   [mode]="mode"
   [showToday]="showToday"
-  (onChange)="onChange($event)"
+  (onChange)="onChange()"
 >
 </calendar-react>
+<h1>React Component End</h1>
 <app-hero-search></app-hero-search>

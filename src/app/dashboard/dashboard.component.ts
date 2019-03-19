@@ -10,6 +10,7 @@ import { HeroService } from "../hero.service";
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
 
+  modes = ["year", "decade"];
   showToday = true;
   mode = "year";
 
@@ -19,8 +20,8 @@ export class DashboardComponent implements OnInit {
     this.getHeroes();
   }
 
-  onChange(event: any): void {
-    console.log(event);
+  onChange(): void {
+    alert("Called from React");
   }
 
   getHeroes(): void {
