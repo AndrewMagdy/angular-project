@@ -29,7 +29,7 @@
     "angular-in-memory-web-api": "^0.6.0",
     "core-js": "^2.5.4",
     "react-components": "../thin-wrapper/projects/react-components/dist",
-    "rc-calendar": "^9.10.10",
+    "rc-app": "/Users/andrewmagdy/Documents/git/angReactPOC/react-app/dist/",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "rxjs": "^6.0.0",

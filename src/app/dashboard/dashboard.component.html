@@ -25,7 +25,8 @@
 <calendar-react
   [mode]="mode"
   [showToday]="showToday"
-  (onChange)="onChange()"
+  [initialState]="initialState"
+  (onStateChange)="onStateChange($event)"
 >
 </calendar-react>
 <h1>React Component End</h1>

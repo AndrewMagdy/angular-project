@@ -9,7 +9,14 @@ import { HeroService } from "../hero.service";
 })
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
-
+  initialState = {
+    basket: {
+      basketItems: [{ name: "Item From Angular" }],
+      isLoading: false,
+      isError: false,
+      errorMessage: ""
+    }
+  };
   modes = ["year", "decade"];
   showToday = true;
   mode = "year";
@@ -20,8 +27,8 @@ export class DashboardComponent implements OnInit {
     this.getHeroes();
   }
 
-  onChange(): void {
-    alert("Called from React");
+  onStateChange(state): void {
+    console.log(state);
   }
 
   getHeroes(): void {
