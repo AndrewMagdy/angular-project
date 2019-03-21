@@ -49,7 +49,7 @@ export class DashboardComponent implements OnInit {
   modes = ["year", "decade"];
   showToday = true;
   mode = "year";
-
+  reactState = this.initialState;
   constructor(private heroService: HeroService) {}
 
   ngOnInit() {
@@ -57,7 +57,7 @@ export class DashboardComponent implements OnInit {
   }
 
   onStateChange(state): void {
-    console.log(JSON.stringify(state));
+    this.reactState = state;
   }
 
   getHeroes(): void {
