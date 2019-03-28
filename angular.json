@@ -31,9 +31,6 @@
             "styles": [
               {
                 "input": "src/styles.css"
-              },
-              {
-                "input": "./node_modules/rc-app/rc-app.css"
               }
             ],
             "scripts": []
@@ -85,9 +82,6 @@
             "styles": [
               {
                 "input": "styles.css"
-              },
-              {
-                "input": "./node_modules/rc-app/rc-app.css"
               }
             ],
             "scripts": [],
