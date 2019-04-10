@@ -16,7 +16,7 @@ import { HeroSearchComponent } from "./hero-search/hero-search.component";
 import { MessagesComponent } from "./messages/messages.component";
 import { NgxJsonViewerModule } from 'ngx-json-viewer';
 
-import { PocAppModule } from "poc-react-components";
+import { PocReactAppModule } from "poc-react-components";
 
 @NgModule({
   imports: [
@@ -24,7 +24,7 @@ import { PocAppModule } from "poc-react-components";
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
-    PocAppModule,
+    PocReactAppModule,
     NgxJsonViewerModule,
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests

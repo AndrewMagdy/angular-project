@@ -10,6 +10,8 @@ import { HeroService } from "../hero.service";
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
   initialState = {};
+  angularTestProp = "Hello World";
+
 
   reactState = this.initialState;
   constructor(private heroService: HeroService) {}
