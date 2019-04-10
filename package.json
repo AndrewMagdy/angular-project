@@ -1,8 +1,8 @@
 {
-  "name": "angular-io-example",
+  "name": "poc-angular-host",
   "version": "1.0.0",
-  "private": true,
-  "description": "Example project from an angular.io guide.",
+  "private": false,
+  "description": "Angular host project based on the example project from angular.io guide.",
   "scripts": {
     "lint": "tslint ./src/**/*.ts -t verbose",
     "start": "ng serve",
@@ -12,7 +12,7 @@
     "ng": "ng"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrew Magdy",
   "license": "MIT",
   "dependencies": {
     "@angular-react/core": "^0.6.0",
