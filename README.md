@@ -28,7 +28,7 @@ or
 
      npm install angular-react react react-dom
 
-Install the Wrapper and the React Project in our case poc-react-app and poc-react-components
+Install the React project and the wrapper in our case poc-react-app (app)and poc-react-components (wrapper)
 
     yarn add poc-react-app poc-react-components
 
