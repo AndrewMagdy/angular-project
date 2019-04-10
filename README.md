@@ -14,11 +14,11 @@ The project is based on Microsoft's react-angular project ([Github](https://gith
 _An Angular project that hosts both React components and Angular components.
 The angular components are based on Angular io's [example project](https://github.com/angular/angular/tree/master/aio/content/examples/toh-pt6)_
 
-#### The Wrapper project ([Github repo,](https://github.com/AndrewMagdy/thin-wrapper) [npm package](https://www.npmjs.com/package/poc-react-components)):
+#### The Wrapper project: ([Github repo,](https://github.com/AndrewMagdy/thin-wrapper) [npm package](https://www.npmjs.com/package/poc-react-components))
 
 _A thin wrapper for the React components that maps inputs and outputs between the host Angular component and the child React component._
 
-#### The React project ([Github repo](https://github.com/AndrewMagdy/poc-react-app), [npm package](https://www.npmjs.com/package/poc-react-app)):
+#### The React project: ([Github repo](https://github.com/AndrewMagdy/poc-react-app), [npm package](https://www.npmjs.com/package/poc-react-app))
 
 _A sample React project that can be used as a standalone project, hosted inside another React project or hosted inside an Angular project using the Wrapper._
 
@@ -38,9 +38,9 @@ npm install
 npm start
 ```
 
-## Integrations Steps
+## Integrations Steps Walkthrough
 
-### **These steps are already implented in this project.**
+_**These steps are already implented in this project. This is a walkthrough of these steps**_
 
 ### Angular Host Project
 
@@ -58,21 +58,24 @@ Install the React project and the wrapper in our case poc-react-app (React appli
 
 In Angular’s project app.module import the AngularReactBrowserModule from @angular-react/core and use it instead of Angular’s Browser module
 
-    import { AngularReactBrowserModule } from "@angular-react/core";
-    ...
+```JS
+import { AngularReactBrowserModule } from "@angular-react/core";
+...
 
-    @NgModule({
-        imports: [
-        AngularReactBrowserModule,
-        ....
-        ]
-    })
+@NgModule({
+    imports: [
+    AngularReactBrowserModule,
+    ....
+    ]
+})
 
 ],
 
+```
 In Angular's project app.module import the wrapper and add it in Ngmodule imports
 
-    import { PocAppModule } from "poc-react-components";
+```JS
+import { PocAppModule } from "poc-react-components";
     ...
     @NgModule({
         imports: [
@@ -80,6 +83,7 @@ In Angular's project app.module import the wrapper and add it in Ngmodule import
             PocAppModule,
             ...
         ],
+```
 
 Add the react component (imported in the above step from the wrapper) to the desired angular component using its selector (<poc-react-app> in our case),
 props can be passed to the React component, using normal Angular syntax
