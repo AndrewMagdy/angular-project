@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { Hero } from "../hero";
 import { HeroService } from "../hero.service";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-dashboard",
@@ -12,9 +13,8 @@ export class DashboardComponent implements OnInit {
   initialState = {};
   angularTestProp = "Hello World";
 
-
   reactState = this.initialState;
-  constructor(private heroService: HeroService) {}
+  constructor(private heroService: HeroService, private router: Router) {}
 
   ngOnInit() {
     this.getHeroes();
@@ -22,6 +22,10 @@ export class DashboardComponent implements OnInit {
 
   onStateChange(state): void {
     this.reactState = state;
+  }
+
+  navigateTo(route): void {
+    this.router.navigateByUrl(route);
   }
 
   getHeroes(): void {
