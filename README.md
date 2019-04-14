@@ -100,13 +100,17 @@ Install the React project and the wrapper in our case poc-react-app (React appli
 
 There are multiple approaches to installing the modules
 
-#### _From the npm registry_
+#### _From a registry_
+
+Currently the npm registry is used, Nexus 3 or other registries are also possible (by specifying the registry in .npmrc / .yarnrc)
+
+Currently
 
     yarn add poc-react-app poc-react-components
 
-#### From a Git repository
+#### _From a Git repository_
 
-in our case
+Currently
 
     yarn add https://github.com/AndrewMagdy/thin-wrapper#poc-react-components-v0.1.3-gitpkg https://github.com/AndrewMagdy/poc-react-app
 
