@@ -98,7 +98,17 @@ or
 
 Install the React project and the wrapper in our case poc-react-app (React application) and poc-react-components (wrapper)
 
+There are multiple approaches to installing the modules
+
+#### _From the npm registry_
+
     yarn add poc-react-app poc-react-components
+
+#### From a Git repository
+
+in our case
+
+    yarn add https://github.com/AndrewMagdy/thin-wrapper#poc-react-components-v0.1.3-gitpkg https://github.com/AndrewMagdy/poc-react-app
 
 #### Use AngularReactBrowser
 
