@@ -48,7 +48,7 @@ We use the former approach in this project, since having the React component as 
 
 ### Routing
 
-There are to approaches to route handling from withing the React component
+There are two approaches to route handling from withing the React component
 
 1. #### Routing handled by the React component
 
