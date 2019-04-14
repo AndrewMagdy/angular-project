@@ -24,12 +24,19 @@ h3 {
 h4 {
   position: relative;
 }
+.in {
+  font-size: 24px;
+  color: #607d8b;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
 .grid {
   margin: 0;
 }
 .col-1-4 {
   width: 25%;
 }
+
 .module {
   padding: 20px;
   text-align: center;

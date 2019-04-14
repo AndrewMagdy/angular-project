@@ -10,10 +10,9 @@ import { Router } from "@angular/router";
 })
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
-  initialState = {};
   angularTestProp = "Hello World";
 
-  reactState = this.initialState;
+  reactState = {};
   constructor(private heroService: HeroService, private router: Router) {}
 
   ngOnInit() {
@@ -22,7 +21,7 @@ export class DashboardComponent implements OnInit {
 
   onStateChange(state): void {
     this.reactState = state;
-  }
+}
 
   navigateTo(route): void {
     this.router.navigateByUrl(route);

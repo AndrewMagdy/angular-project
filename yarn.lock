@@ -9323,7 +9323,7 @@ pnp-webpack-plugin@1.2.1:
 
 "poc-react-app@https://github.com/AndrewMagdy/poc-react-app":
   version "0.2.0"
-  resolved "https://github.com/AndrewMagdy/poc-react-app#e15480147fbfdfc96d5d6658e764c5ee7496446b"
+  resolved "https://github.com/AndrewMagdy/poc-react-app#57205ab1b0b585a632a7e91ec1526434ea551085"
   dependencies:
     "@babel/runtime" "^7.4.0"
     "@material-ui/core" "^3.9.2"
