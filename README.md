@@ -24,6 +24,10 @@ _A sample React project that can be used as a standalone project, hosted inside 
 
 ### Results
 
+### Dependencies
+
+_"AngularReactBrowserModule"_ from Microsoft's react-angular project needs to be used instead of Angular’s Browser module
+
 ### Props and callbacks
 
 The thin wrapper maps the inputs and outputs (callbacks) passed from the Angular application to the React component, which allows seamless integration.
