@@ -94,11 +94,11 @@ _**These steps are already implented in this project. This is a walkthrough of t
 
 Install [angular-react](https://github.com/Microsoft/angular-react), react, react-dom
 
-    yarn add angular-react react react-dom
+    yarn add  @angular-react/core react react-dom @types/react @types/react-dom
 
 or
 
-     npm install angular-react react react-dom
+     npm install @angular-react/core react react-dom @types/react @types/react-dom
 
 Install the React project and the wrapper in our case poc-react-app (React application) and poc-react-components (wrapper)
 
